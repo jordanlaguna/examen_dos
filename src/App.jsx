@@ -14,7 +14,6 @@ import Page_footer from "./componets/footer";
 import Page_nav from "./componets/nav_info";
 
 const API_KEY = "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";
-
 const systemMessage = {
   role: "system",
   content:
@@ -99,10 +98,10 @@ function App() {
       <div className="App">
         <div
           style={{
-            marginLeft: "25%",
-            height: "400px",
-            width: "600px",
-            marginTop: "6%",
+            marginLeft: "28%",
+            height: "350px",
+            width: "500px",
+            marginTop: "8%",
           }}
         >
           <MainContainer>
