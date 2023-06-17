@@ -95,18 +95,18 @@
 .tittle-git1 {
   display: flex;
   color: white;
-  margin-top: -1.7%;
+  margin-top: -1.9%;
   margin-left: 4%;
   margin-right: 0px;
   margin-bottom: -10px;
   text-align: left;
   font-family: "Josefin_Sans";
   font-size: 16px;
+  text-decoration: none;
   padding: 5px;
+  font-weight: bold;
 }
-.imgfacebook {
-  width: 25px;
-  height: 25px;
+
 .tittle-git2 {
   display: flex;
   color: white;
@@ -147,3 +147,4 @@
   font-size: 16px;
   margin-top: 1%;
 }
+
