@@ -11,7 +11,7 @@
   text-align: center;
   position: fixed;
   left: 0;
-  bottom: -2%;
+  bottom: -3%;
   width: 100%;
   font-family: "Josefin_Sans";
   font-size: 20px;
@@ -26,8 +26,8 @@
   width: 100%;
 }
 .imgchat {
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
   margin-top: 0%;
   margin-left: 92%;
   border-radius: 50px;
@@ -44,32 +44,22 @@
   padding: 15px;
 }
 
-
 /*nav*/
 .navPage {
-  padding: 3%;
-  display: flex;
-  margin-top: 1%;
-  width: 100%;
-  margin-left: -2.9%;
   background-color: #ccc;
-
-}
-
-.title-nav {
-  font-size: 20px;
-  font-weight: bold;
-  display: inline-block;
-  color: #3C6E71;
+  padding: 25px;
+  text-align: center;
+  width: 100%;
+  margin-left: -3.2%;
 }
 
 .info-nav {
-  font-size: 12px;
-  font-weight: bold;
-  display: inline-block;
-  color: black;
+  margin: 1%;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
+  margin-top: 1%;
 }
-
 .imgGitHub {
   width: 25px;
   height: 25px;
