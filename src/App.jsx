@@ -98,10 +98,10 @@ function App() {
       <div className="App">
         <div
           style={{
-            marginLeft: "35%",
-            height: "300px",
-            width: "350px",
-            marginTop: "0.5%",
+            marginLeft: "31%",
+            height: "330px",
+            width: "500px",
+            marginTop: "11%",
           }}
         >
           <MainContainer>

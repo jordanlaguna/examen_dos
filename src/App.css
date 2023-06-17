@@ -29,14 +29,28 @@
   width: 50px;
   height: 50px;
   margin-top: 0%;
-  margin-left: 92%;
+  margin-left: 1%;
   border-radius: 50px;
   border: black solid 1px;
 }
+
+.ChaGPT{
+  background-image: linear-gradient(to bottom, #ffb4a2, #b5838d);
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 85%;
+  margin-bottom: 0%;
+}
+
 .tittle {
   color: white;
-  margin-top: -6%;
-  margin-left: 1%;
+  margin-top: -5.3%;
+  margin-left: 4.7%;
   margin-right: 0px;
   margin-bottom: -10px;
   text-align: left;
@@ -46,11 +60,13 @@
 
 /*nav*/
 .navPage {
-  background-color: #ccc;
-  padding: 25px;
-  text-align: center;
-  width: 100%;
-  margin-left: -3.2%;
+  background-color: #ccc; /* Color de fondo cris */
+  width: 100%; /* Ajustar al ancho completo de la pantalla */
+  margin-top: 20px; /* Espacio de separación respecto al encabezado */
+  position: fixed; /* Fijar el elemento en la pantalla */
+  top: 7.1%; /* Ajustar la distancia desde la parte superior según la altura del encabezado */
+  left: 0; /* Alinear a la izquierda de la pantalla */
+  right: 0; /* Alinear a la derecha de la pantalla */
 }
 
 .info-nav {
