@@ -21,6 +21,7 @@
   padding: 1%;
   text-align: left;
   position: fixed;
+  display: flex;
   margin-left: -3.2%;
   margin-top: -3.5%;
   width: 100%;
@@ -37,20 +38,24 @@
 .ChaGPT{
   background-image: linear-gradient(to bottom, #ffb4a2, #b5838d);
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0.4%;
+  height: 20%;
+  width: 6%;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 17px;
   border-radius: 5px;
-  margin-left: 85%;
-  margin-bottom: 0%;
+  margin-left: 70%;
+  margin-top: 0.6%;
+  font-family: "Josefin_Sans";
+  font-weight: bold;
 }
 
 .tittle {
   color: white;
-  margin-top: -5.3%;
-  margin-left: 4.7%;
+  margin-top: -1%;
+  margin-left: 0.2%;
   margin-right: 0px;
   margin-bottom: -10px;
   text-align: left;
@@ -60,13 +65,13 @@
 
 /*nav*/
 .navPage {
-  background-color: #ccc; /* Color de fondo cris */
-  width: 100%; /* Ajustar al ancho completo de la pantalla */
-  margin-top: 20px; /* Espacio de separación respecto al encabezado */
-  position: fixed; /* Fijar el elemento en la pantalla */
-  top: 7.1%; /* Ajustar la distancia desde la parte superior según la altura del encabezado */
-  left: 0; /* Alinear a la izquierda de la pantalla */
-  right: 0; /* Alinear a la derecha de la pantalla */
+  background-color: #ccc; 
+  width: 100%; 
+  margin-top: 20px; 
+  position: fixed; 
+  top: 7%; 
+  left: 0; 
+  right: 0; 
 }
 
 .info-nav {
@@ -75,19 +80,22 @@
   line-height: 1.5;
   color: #000;
   margin-top: 1%;
+  font-family: "Josefin_Sans";
 }
 .imgGitHub {
-  width: 25px;
-  height: 25px;
-  margin-bottom: -1%;
-  margin-top: -0.5%;
+  width: 29px;
+  height: 29px;
+  margin-bottom: -1.1%;
+  margin-top: -0.9%;
   border-radius: 50px;
   border: black solid 1px;
   margin-right: 95%;
 }
-.tittle-git {
+
+.tittle-git1 {
+  display: flex;
   color: white;
-  margin-top: -2%;
+  margin-top: -1.7%;
   margin-left: 4%;
   margin-right: 0px;
   margin-bottom: -10px;
@@ -99,20 +107,43 @@
 .imgfacebook {
   width: 25px;
   height: 25px;
-  margin-bottom: -1%;
-  margin-top: -0.5%;
-  border-radius: 50px;
-  border: black solid 1px;
-  margin-right: 95%;
-}
-.tittle-face {
+.tittle-git2 {
+  display: flex;
   color: white;
-  margin-top: -2%;
-  margin-left: 4%;
+  margin-top: -2.5%;
+  margin-left: 14.5%;
+  margin-right: 0px;
+  margin-bottom: -10px;
+  text-align: left;
+  font-family: "Josefin_Sans";
+  font-size: 16px;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tittle-mail {
+  color: white;
+  margin-top: -3.9%;
+  margin-left: 4.3%;
   margin-right: 0px;
   margin-bottom: -30px;
   text-align: left;
   font-family: "Josefin_Sans";
   font-size: 16px;
-  padding: 5px;
+  padding: 2px;
+}
+
+.imgMail {
+  width: 29px;
+  height: 29px;
+  margin-top: 2%;
+  border-radius: 50px;
+  border: black solid 1px;
+  margin-right: 95%;
+}
+.copyright{
+  font-family: "Josefin_Sans";
+  font-size: 16px;
+  margin-top: 1%;
 }

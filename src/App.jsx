@@ -101,7 +101,7 @@ function App() {
             marginLeft: "31%",
             height: "330px",
             width: "500px",
-            marginTop: "11%",
+            marginTop: "10.8%",
           }}
         >
           <MainContainer>
