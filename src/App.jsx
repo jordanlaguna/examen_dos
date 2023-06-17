@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css"; //npm install @chatscope/chat-ui-kit-reac
+import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css"; //npm install @chatscope/chat-ui-kit-react
 import {
   MainContainer,
   ChatContainer,
@@ -10,8 +10,9 @@ import {
   TypingIndicator,
 } from "@chatscope/chat-ui-kit-react";
 import Page_head from "./componets/head";
+import Page_footer from "./componets/footer";
 
-const API_KEY = "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";
+const API_KEY = "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";
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = {
   //  Explain things like you're talking to a software professional with 5 years of experience.
@@ -48,11 +49,6 @@ function App() {
   };
 
   async function processMessageToChatGPT(chatMessages) {
-    // messages is an array of messages
-    // Format messages for chatGPT API
-    // API is expecting objects in format of { role: "user" or "assistant", "content": "message here"}
-    // So we need to reformat
-
     let apiMessages = chatMessages.map((messageObject) => {
       let role = "";
       if (messageObject.sender === "ChatGPT") {
@@ -63,9 +59,6 @@ function App() {
       return { role: role, content: messageObject.message };
     });
 
-    // Get the request body set up with the model we plan to use
-    // and the messages which we formatted above. We add a system message in the front to'
-    // determine how we want chatGPT to act.
     const apiRequestBody = {
       model: "gpt-3.5-turbo",
       messages: [
@@ -105,9 +98,9 @@ function App() {
         <div
           style={{
             marginLeft: "25%",
-            height: "450px",
+            height: "400px",
             width: "600px",
-            marginTop: "3%",
+            marginTop: "6%",
           }}
         >
           <MainContainer>
@@ -133,6 +126,7 @@ function App() {
           </MainContainer>
         </div>
       </div>
+      <Page_footer></Page_footer>
     </>
   );
 }
