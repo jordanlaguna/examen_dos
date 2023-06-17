@@ -11,8 +11,9 @@ import {
 } from "@chatscope/chat-ui-kit-react";
 import Page_head from "./componets/head";
 import Page_footer from "./componets/footer";
+import Page_nav from "./componets/nav_info";
 
-const API_KEY = "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";
+const API_KEY = "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";
 
 const systemMessage = {
   role: "system",
@@ -93,6 +94,8 @@ function App() {
   return (
     <>
       <Page_head></Page_head>
+      <Page_nav></Page_nav>
+
       <div className="App">
         <div
           style={{
