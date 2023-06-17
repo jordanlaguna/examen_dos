@@ -104,6 +104,11 @@ function App() {
             marginTop: "10.8%",
           }}
         >
+          @media (max-width: 480px) {
+  margin-left: 0;  /* Remueve el margen izquierdo */
+  width: 100%;    /* El div ocupa todo el ancho disponible */
+  margin-top: 0;  /* Remueve el margen superior */
+}
           <MainContainer>
             <ChatContainer>
               <MessageList
