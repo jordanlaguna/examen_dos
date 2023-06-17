@@ -12,7 +12,7 @@ import {
 import Page_head from "./componets/head";
 import Page_footer from "./componets/footer";
 
-const API_KEY = "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";
+const API_KEY = "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";
 
 const systemMessage = {
   role: "system",
@@ -96,10 +96,10 @@ function App() {
       <div className="App">
         <div
           style={{
-            marginLeft: "25%",
-            height: "400px",
-            width: "600px",
-            marginTop: "6%",
+            marginLeft: "28%",
+            height: "350px",
+            width: "500px",
+            marginTop: "8%",
           }}
         >
           <MainContainer>
