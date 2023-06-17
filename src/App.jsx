@@ -12,7 +12,7 @@ import {
 import Page_head from "./componets/head";
 import Page_footer from "./componets/footer";
 
-const API_KEY = "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";
+const API_KEY = "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";
 
 const systemMessage = {
   role: "system",
