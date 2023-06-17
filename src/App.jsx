@@ -13,6 +13,7 @@ import Page_head from "./componets/head";
 import Page_footer from "./componets/footer";
 import Page_nav from "./componets/nav_info";
 
+//the constant is created for consummed api
 const API_KEY = "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";
 const systemMessage = {
   role: "system",
@@ -21,6 +22,7 @@ const systemMessage = {
 };
 
 function App() {
+  //Initial message when the chat opens
   const [messages, setMessages] = useState([
     {
       message: "Hola, soy ChatM&J! Preguntame lo que quieras!",
@@ -28,6 +30,7 @@ function App() {
       sender: "ChatM&J",
     },
   ]);
+  //I'm typing status
   const [isTyping, setIsTyping] = useState(false);
 
   const handleSend = async (message) => {
@@ -46,7 +49,7 @@ function App() {
     setIsTyping(true);
     await processMessageToChatGPT(newMessages);
   };
-
+  //Process the request and respond
   async function processMessageToChatGPT(chatMessages) {
     let apiMessages = chatMessages.map((messageObject) => {
       let role = "";
@@ -65,7 +68,7 @@ function App() {
         ...apiMessages, // The messages from our chat with ChatGPT
       ],
     };
-
+    //Connection to the api and the json is parsed to obtain responses.
     await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
@@ -92,6 +95,7 @@ function App() {
 
   return (
     <>
+      {/*Components are called, too, and chatscope components are also generated.*/}
       <Page_head></Page_head>
       <Page_nav></Page_nav>
 

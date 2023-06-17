@@ -35,7 +35,7 @@
   border: black solid 1px;
 }
 
-.ChaGPT{
+.ChaGPT {
   background-image: linear-gradient(to bottom, #ffb4a2, #b5838d);
   display: inline-block;
   padding: 0.4%;
@@ -65,13 +65,13 @@
 
 /*nav*/
 .navPage {
-  background-color: #ccc; 
-  width: 100%; 
-  margin-top: 20px; 
-  position: fixed; 
-  top: 7%; 
-  left: 0; 
-  right: 0; 
+  background-color: #ccc;
+  width: 100%;
+  margin-top: 20px;
+  position: fixed;
+  top: 7%;
+  left: 0;
+  right: 0;
 }
 
 .info-nav {
@@ -100,18 +100,18 @@
   margin-right: 0px;
   margin-bottom: -10px;
   text-align: left;
+  text-decoration: none;
   font-family: "Josefin_Sans";
   font-size: 16px;
   padding: 5px;
+  font-weight: bold;
 }
-.imgfacebook {
-  width: 25px;
-  height: 25px;
+
 .tittle-git2 {
   display: flex;
   color: white;
-  margin-top: -2.5%;
-  margin-left: 14.5%;
+  margin-top: -2.7%;
+  margin-left: 15%;
   margin-right: 0px;
   margin-bottom: -10px;
   text-align: left;
@@ -142,7 +142,7 @@
   border: black solid 1px;
   margin-right: 95%;
 }
-.copyright{
+.copyright {
   font-family: "Josefin_Sans";
   font-size: 16px;
   margin-top: 1%;
