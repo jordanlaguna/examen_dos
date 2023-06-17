@@ -13,9 +13,8 @@ import Page_head from "./componets/head";
 import Page_footer from "./componets/footer";
 
 const API_KEY = "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";
-// "Explain things like you would to a 10 year old learning how to code."
+
 const systemMessage = {
-  //  Explain things like you're talking to a software professional with 5 years of experience.
   role: "system",
   content:
     "Explain things like you're talking to a software professional with 2 years of experience.",
@@ -24,9 +23,9 @@ const systemMessage = {
 function App() {
   const [messages, setMessages] = useState([
     {
-      message: "Hola, soy ChatGPT! Preguntame lo que quieras!",
+      message: "Hola, soy ChatM&J! Preguntame lo que quieras!",
       sentTime: "Ahora",
-      sender: "ChatGPT",
+      sender: "ChatM&J",
     },
   ]);
   const [isTyping, setIsTyping] = useState(false);

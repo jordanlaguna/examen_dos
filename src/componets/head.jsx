@@ -2,7 +2,7 @@ const Page_head = ({}) => {
   return (
     <>
       <header className="headPage">
-        <img className="imgchat" src="/ChatLogo.png" alt="Not Found" />
+        <img className="imgchat" src="/LogoChat.gif" alt="Not Found" />
         <h1 className="tittle">ChatM&J</h1>
       </header>
     </>
