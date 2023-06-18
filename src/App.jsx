@@ -14,7 +14,7 @@ import Page_footer from "./componets/footer";
 import Page_nav from "./componets/nav_info";
 
 //the constant is created for consummed api
-const API_KEY = "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";
+const API_KEY = "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";
 const systemMessage = {
   role: "system",
   content:
