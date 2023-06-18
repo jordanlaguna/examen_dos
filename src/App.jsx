@@ -99,20 +99,8 @@ function App() {
       <Page_head></Page_head>
       <Page_nav></Page_nav>
 
-      <div className="App">
-        <div
-          style={{
-            marginLeft: "31%",
-            height: "330px",
-            width: "500px",
-            marginTop: "10.8%",
-          }}
-        >
-          @media (max-width: 480px) {
-  margin-left: 0;  /* Remueve el margen izquierdo */
-  width: 100%;    /* El div ocupa todo el ancho disponible */
-  margin-top: 0;  /* Remueve el margen superior */
-}
+      <div className="chatContainer">
+        <div className="chatContainer">
           <MainContainer>
             <ChatContainer>
               <MessageList

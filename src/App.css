@@ -4,11 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-@media (max-width: 480px) {
-  #root {
-    padding: 0.5rem;
-  }
-}
 
 .headPage {
   background-color: #3296a6;
@@ -56,28 +51,20 @@
   font-family: "Josefin_Sans";
   padding: 15px;
 }
-@media (max-width: 480px) {
+@media (max-width: 414px) {
   .headPage {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-    margin-top: 0;
+    padding: 8px;
   }
 
   .imgchat {
-    margin-left: 0;
-    margin-top: 1%;
-  }
-
-  .ChaGPT {
-    margin-left: 0;
-    margin-top: 1%;
-    width: 100%;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
   }
 
   .tittle {
-    margin: 0;
-    text-align: center;
+    font-size: 14px;
+    padding: 10px;
   }
 }
 
@@ -100,10 +87,14 @@
   margin-top: 1%;
   font-family: "Josefin_Sans";
 }
-@media (max-width: 480px) {
+@media (max-width: 414px) {
   .navPage {
-    width: 100%;
-    max-width: 480px;
+    margin-top: 10px;
+  }
+
+  .info-nav {
+    font-size: 12px;
+    margin-top: 10px;
   }
 }
 
@@ -186,17 +177,50 @@
   font-size: 16px;
   margin-top: 1%;
 }
-
-@media (max-width: 480px) {
-  .tittle-git1,
-  .tittle-git2,
-  .tittle-mail {
-    margin-left: 4%;
-    margin-right: 4%;
+@media (max-width: 414px) {
+  .footerPage {
+    bottom: 0;
   }
 
   .imgGitHub,
   .imgMail {
-    margin-right: 4%;
+    width: 8vw;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .tittle-git1,
+  .tittle-git2,
+  .tittle-mail {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .tittle-mail {
+    margin-top: 5px;
+  }
+}
+.chatContainer {
+  margin-left: 20%;
+  height: 330px;
+  width: 500px;
+  margin-top: 10.8%;
+}
+
+@media (max-width: 768px) {
+  .chatContainer {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 10%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 414px) {
+  .chatContainer {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 10%;
+    height: 250px;
   }
 }
