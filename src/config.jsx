@@ -1,4 +1,4 @@
 const config = {
-  openaiApiKey: "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",
+  openaiApiKey: "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",
 };
 export default config;
