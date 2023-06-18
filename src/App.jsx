@@ -14,7 +14,7 @@ import Page_footer from "./componets/footer";
 import Page_nav from "./componets/nav_info";
 
 //the constant is created for consummed api
-const API_KEY = "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";
+const API_KEY = "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";
 const systemMessage = {
   role: "system",
   content:
@@ -107,7 +107,7 @@ function App() {
                 scrollBehavior="smooth"
                 typingIndicator={
                   isTyping ? (
-                    <TypingIndicator content="ChatGPT is typing" />
+                    <TypingIndicator content="ChatGPT esta escribiendo" />
                   ) : null
                 }
               >
