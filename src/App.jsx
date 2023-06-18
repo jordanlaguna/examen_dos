@@ -1,4 +1,6 @@
 import { useState } from "react";
+import config from "./config";
+import { Configuration } from "openai";
 import "./App.css";
 import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css"; //npm install @chatscope/chat-ui-kit-react
 import {
@@ -13,8 +15,10 @@ import Page_head from "./componets/head";
 import Page_footer from "./componets/footer";
 import Page_nav from "./componets/nav_info";
 
+const configuration = new Configuration({
+  apiKey: config.openaiApiKey,
+});
 //the constant is created for consummed api
-const API_KEY = "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";
 const systemMessage = {
   role: "system",
   content:
@@ -72,7 +76,7 @@ function App() {
     await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
-        Authorization: "Bearer " + API_KEY,
+        Authorization: "Bearer " + config.openaiApiKey,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(apiRequestBody),
