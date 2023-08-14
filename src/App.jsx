@@ -15,9 +15,8 @@ import Page_head from "./componets/head";
 import Page_footer from "./componets/footer";
 import Page_nav from "./componets/nav_info";
 
-const configuration = new Configuration({
-  apiKey: config.openaiApiKey,
-});
+const configuration = new Configuration({});
+const apiKey = process.env.OPENAI_API_KEY;
 //the constant is created for consummed api
 const systemMessage = {
   role: "system",
@@ -76,7 +75,7 @@ function App() {
     await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
-        Authorization: "Bearer " + config.openaiApiKey,
+        Authorization: "Bearer " + apiKey,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(apiRequestBody),
